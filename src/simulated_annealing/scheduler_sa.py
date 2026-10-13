@@ -292,7 +292,8 @@ def ejecutar_optimizacion_sa():
         })
 
     df_res = pd.DataFrame(filas)
-    ruta_salida = 'data/horario_sa.csv'
+    os.makedirs('results/simulated_annealing', exist_ok=True)
+    ruta_salida = 'results/simulated_annealing/horario_sa.csv'
     df_res.to_csv(ruta_salida, index=False)
     print(f"[+] Horario guardado en: {ruta_salida}")
 
@@ -315,8 +316,7 @@ def ejecutar_optimizacion_sa():
         print(grid_df.to_string())
 
     # Generar y guardar la gráfica de convergencia
-    os.makedirs('data', exist_ok=True)
-    ruta_figura = 'data/curva_convergencia_sa.png'
+    ruta_figura = 'results/simulated_annealing/curva_convergencia_sa.png'
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
 
     ax1.plot(hist['pasos'], hist['coste_actual'], color='tab:gray', alpha=0.35, label='Coste Actual')

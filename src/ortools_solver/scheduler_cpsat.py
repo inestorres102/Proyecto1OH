@@ -217,7 +217,8 @@ def construir_y_resolver_horario(tiempo_max_seg=30.0):
                 })
 
         df_resultado = pd.DataFrame(filas_resultado)
-        ruta_salida = 'data/horario_generado.csv'
+        os.makedirs('results/ortools', exist_ok=True)
+        ruta_salida = 'results/ortools/horario_ortools.csv'
         df_resultado.to_csv(ruta_salida, index=False)
         print(f"[+] Horario guardado en: {ruta_salida}")
 
