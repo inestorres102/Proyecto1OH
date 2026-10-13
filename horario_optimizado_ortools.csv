@@ -1,4 +1,4 @@
-id_sesion,curso,asignatura,tipo,grupo,profesor,duracion,dia,hora,aula
+id_sesion,curso,asignatura,tipo,grupo,profesor,duracion,aula
 OH_TEO,3,OH,Teoria,3GCID_G1,P_OH,2,Martes,12:30,A2-5
 OH_LAB_41,3,OH,Laboratorio,3GCID_41,P_OH,2,Lunes,08:30,L1-1
 OH_LAB_42,3,OH,Laboratorio,3GCID_42,P_OH,2,Martes,10:30,L1-1
