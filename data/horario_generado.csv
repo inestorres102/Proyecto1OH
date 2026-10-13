@@ -1,0 +1,7 @@
+id_sesion,asignatura,tipo,grupo,duracion_horas,profesor,dia,hora_inicio,aula
+S01,OH,practica,41,2,Javier Sánchez Pérez,Lunes,10:30,L2-3
+S02,OH,practica,42,2,Javier Sánchez Pérez,Jueves,10:30,L2-3
+S03,AA2,practica,42,1,José Javier Lorenzo Navarro,Lunes,10:30,L1-1
+S04,BD2,teoria,17,2,Juan de Dios Duque Oliva,Jueves,08:30,A2-5
+S05,ASO,teoria,17,1,Carmelo Rubén García Rodríguez,Martes,08:30,A2-5
+S06,OH,teoria,17,1,Javier Sánchez Pérez,Miercoles,08:30,A2-5
