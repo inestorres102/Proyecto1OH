@@ -1,0 +1,7 @@
+id_sesion,asignatura,tipo,grupo,duracion_horas,tipo_aula_requerida,profesor
+S01,OH,practica,41,2,laboratorio,Javier Sánchez Pérez
+S02,OH,practica,42,2,laboratorio,Javier Sánchez Pérez
+S03,AA2,practica,42,1,laboratorio, José Javier Lorenzo Navarro
+S04,BD2,teoria,17,2,aula_teoria, Juan de Dios Duque Oliva
+S05,ASO,teoria,17,1,aula_teoria, Carmelo Rubén García Rodríguez
+S06,OH,teoria,17,1,aula_teoria,Javier Sánchez Pérez
