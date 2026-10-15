@@ -195,8 +195,8 @@ def construir_y_resolver_horario(tiempo_max_seg=30.0):
     duracion_t = time.time() - inicio_t
 
     if status in (cp_model.OPTIMAL, cp_model.FEASIBLE):
-        estado_nom = "ÓPTIMO MATEMÁTICO" if status == cp_model.OPTIMAL else "FACTIBLE"
-        print(f"\n[+] Solución encontrada en {duracion_t:.3f} segundos! ({estado_nom})")
+        estado_nom = "OPTIMO MATEMATICO" if status == cp_model.OPTIMAL else "FACTIBLE"
+        print(f"\n[+] Solucion encontrada en {duracion_t:.3f} segundos ({estado_nom})")
         print(f"[+] Valor objetivo: {solver.ObjectiveValue():.0f}")
 
         # Construir tabla final de asignaciones
@@ -227,7 +227,7 @@ def construir_y_resolver_horario(tiempo_max_seg=30.0):
 
         return df_resultado
     else:
-        print("[!] No se encontró ninguna solución factible.")
+        print("[!] No se encontro ninguna solución factible.")
         return None
 
 
@@ -236,7 +236,7 @@ def imprimir_horarios(df_res):
     # Cuadrícula por subgrupo de alumnos
     for sg in SUBGRUPOS_ALUMNOS:
         print("\n" + "=" * 75)
-        print(f" HORARIO SEMANAL - SUBGRUPO {sg} (Teoría Grupo 17 + Prácticas {sg})")
+        print(f" HORARIO SEMANAL - SUBGRUPO {sg} (Teoria Grupo 17 + Practicas {sg})")
         print("=" * 75)
         tabla = {dia: ['---'] * NUM_SLOTS_DIA for dia in DIAS}
 
@@ -255,7 +255,7 @@ def imprimir_horarios(df_res):
 
     # Cuadrícula de ocupación por Aula
     print("\n" + "=" * 75)
-    print(" OCUPACIÓN DE AULAS Y LABORATORIOS")
+    print(" OCUPACION DE AULAS Y LABORATORIOS")
     print("=" * 75)
     df_aulas = pd.read_csv('data/aulas.csv')
     df_aulas.columns = [c.strip() for c in df_aulas.columns]
