@@ -3,7 +3,10 @@ import pandas as pd
 import numpy as np
 
 # Cargamos los datos igual que en vuestro script principal
-from main import cargar_datos, DIAS, HORAS_INICIO, SUBGRUPOS_ALUMNOS
+DIAS = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes']
+HORAS_INICIO = ['08:30', '09:30', '10:30', '11:30', '12:30', '13:30']
+NUM_SLOTS_DIA = len(HORAS_INICIO)
+SUBGRUPOS_ALUMNOS = ['41', '42']
 
 def calcular_coste(horario_actual, sesiones_info, df_aulas):
     """
