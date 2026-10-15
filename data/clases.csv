@@ -1,7 +1,16 @@
-id_sesion,asignatura,tipo,grupo,duracion_horas,tipo_aula_requerida,profesor
-S01,OH,practica,41,2,laboratorio,Javier Sánchez Pérez
-S02,OH,practica,42,2,laboratorio,Javier Sánchez Pérez
-S03,AA2,practica,42,1,laboratorio, José Javier Lorenzo Navarro
-S04,BD2,teoria,17,2,aula_teoria, Juan de Dios Duque Oliva
-S05,ASO,teoria,17,1,aula_teoria, Carmelo Rubén García Rodríguez
-S06,OH,teoria,17,1,aula_teoria,Javier Sánchez Pérez
+id_sesion,asignatura,tipo,grupo,duracion_horas,num_alumnos,tipo_aula_requerida,profesor
+S01,OH,practica,41,3,25,laboratorio,Javier Sánchez Pérez
+S02,OH,practica,42,3,25,laboratorio,Javier Sánchez Pérez
+S03,AA2,practica,41,2,25,laboratorio, José Javier Lorenzo Navarro
+S04,AA2,practica,42,2,25,laboratorio, José Javier Lorenzo Navarro
+S05,ASO,practica,41,2,25,laboratorio, Carmelo Rubén García Rodríguez
+S06,ASO,practica,42,2,25,laboratorio, Carmelo Rubén García Rodríguez
+S07,BD,practica,41,2,25,laboratorio, María Dolores Afonso
+S08,BD,practica,42,2,25,laboratorio, María Dolores Afonso
+S09,BD2,practica,41,2,25,laboratorio, Octavio Mayor
+S10,BD2,practica,42,2,25,laboratorio, Juan de Dios Duque Oliva
+S11,OH,teoria,17,1,50,aula_teoria,Javier Sánchez Pérez
+S12,AA2,teoria,17,2,50,aula_teoria, José Javier Lorenzo Navarro
+S13,BD2,teoria,17,2,50,aula_teoria, Juan de Dios Duque Oliva
+S14,ASO,teoria,17,1,50,aula_teoria, Carmelo Rubén García Rodríguez
+S15,BD,teoria,17,2,50,aula_teoria, María Dolores Afonso
