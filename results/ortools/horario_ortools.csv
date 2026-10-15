@@ -1,7 +1,16 @@
 id_sesion,asignatura,tipo,grupo,duracion_horas,profesor,dia,hora_inicio,aula
-S01,OH,practica,41,2,Javier Sánchez Pérez,Lunes,08:30,L2-3
-S02,OH,practica,42,2,Javier Sánchez Pérez,Viernes,08:30,L2-3
-S03,AA2,practica,42,1,José Javier Lorenzo Navarro,Lunes,08:30,L1-1
-S04,BD2,teoria,17,2,Juan de Dios Duque Oliva,Jueves,10:30,A2-5
-S05,ASO,teoria,17,1,Carmelo Rubén García Rodríguez,Martes,08:30,A2-5
-S06,OH,teoria,17,1,Javier Sánchez Pérez,Miercoles,08:30,A2-5
+S01,OH,practica,41,3,Javier Sánchez Pérez,Martes,08:30,L1-3
+S02,OH,practica,42,3,Javier Sánchez Pérez,Miercoles,08:30,L1-1
+S03,AA2,practica,41,2,José Javier Lorenzo Navarro,Lunes,08:30,L1-1
+S04,AA2,practica,42,2,José Javier Lorenzo Navarro,Lunes,10:30,L1-1
+S05,ASO,practica,41,2,Carmelo Rubén García Rodríguez,Lunes,10:30,L1-2
+S06,ASO,practica,42,2,Carmelo Rubén García Rodríguez,Lunes,08:30,L1-2
+S07,BD,practica,41,2,María Dolores Afonso,Miercoles,10:30,L2-1
+S08,BD,practica,42,2,María Dolores Afonso,Martes,10:30,L2-1
+S09,BD2,practica,41,2,Octavio Mayor,Miercoles,08:30,L1-3
+S10,BD2,practica,42,2,Juan de Dios Duque Oliva,Martes,08:30,L2-2
+S11,OH,teoria,17,1,Javier Sánchez Pérez,Lunes,12:30,A1-1
+S12,AA2,teoria,17,2,José Javier Lorenzo Navarro,Jueves,12:30,A3-4
+S13,BD2,teoria,17,2,Juan de Dios Duque Oliva,Jueves,08:30,A3-4
+S14,ASO,teoria,17,1,Carmelo Rubén García Rodríguez,Viernes,10:30,A3-4
+S15,BD,teoria,17,2,María Dolores Afonso,Jueves,10:30,A3-4
